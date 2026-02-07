@@ -2,7 +2,7 @@ fastapi==0.109.0
 uvicorn[standard]==0.27.0
 telethon==1.34.0
 cryptg==0.4.0
-yt-dlp==2024.1.0
+yt-dlp
 aiohttp==3.9.1
 aiofiles==23.2.1
 python-multipart==0.0.6
