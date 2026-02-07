@@ -3,7 +3,7 @@ import random
 import aiofiles
 from pathlib import Path
 from src.config import config
-
+from datetime import datetime
 def get_random_user_agent() -> str:
     return random.choice(config.USER_AGENTS)
 
