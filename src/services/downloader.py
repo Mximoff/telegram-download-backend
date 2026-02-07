@@ -24,7 +24,7 @@ class DownloaderService:
     # سایت‌هایی که نیاز به yt-dlp دارن
     VIDEO_SITES = [
         'youtube.com', 'youtu.be',
-        'pornhub.com', 'pornhub.org', 'pornhub.net',
+        'pornhub.com', 'pornhub.org', 'pornhub.net', 'de.pornhub.org',
         'xvideos.com',
         'xnxx.com',
         'twitter.com', 'x.com',
