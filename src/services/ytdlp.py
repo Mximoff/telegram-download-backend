@@ -118,7 +118,7 @@ class YtDlpService:
         """Download media using yt-dlp"""
         
         platform = self._detect_platform(url)
-        output_path = get_temp_filepath(f`ytdlp_{platform or "unknown"}`)
+        output_path = get_temp_filepath(f"ytdlp_{platform or 'unknown'}")
         
         logger.info(f"yt-dlp download started")
         logger.info(f"URL: {url}")
